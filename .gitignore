@@ -4,6 +4,8 @@
 *.ap_
 *.aab
 
+#.gitignore
+
 # Files for the ART/Dalvik VM
 *.dex
 
@@ -37,6 +39,7 @@ proguard/
 captures/
 
 # IntelliJ
+.idea
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
@@ -78,6 +81,7 @@ fastlane/readme.md
 vcs.xml
 
 # lint
+lint/
 lint/intermediates/
 lint/generated/
 lint/outputs/
